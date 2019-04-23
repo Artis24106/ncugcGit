@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+* {
+    font-family: 'Noto Sans TC' !important;
+}
+
+.no-bg {
+    background: transparent !important;
+}
+
+.no-border {
+    border: none !important;
+}
+
+.no-shadow {
+    box-shadow: none !important;
+}
+
+.bg-white {
+    background-color: white !important;
+}
+
+.g-blue {
+    color: #4285f4 !important;
+}
+
+.g-red {
+    color: #ea4335 !important;
+}
+
+.g-yellow {
+    color: #fbbc05 !important;
+}
+
+.g-green {
+    color: #34a853 !important;
+}

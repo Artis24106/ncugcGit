@@ -1,0 +1,1049 @@
+<!doctype html>
+<html>
+
+<!-- ………………….._,,-~’’’¯¯¯’’~-,,
+………………..,-‘’ ; ; ;_,,---,,_ ; ;’’-,…………………………….._,,,---,,_
+……………….,’ ; ; ;,-‘ , , , , , ‘-, ; ;’-,,,,---~~’’’’’’~--,,,_…..,,-~’’ ; ; ; ;__;’-,
+……………….| ; ; ;,’ , , , _,,-~’’ ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ¯’’~’-,,_ ,,-~’’ , , ‘, ;’,
+……………….’, ; ; ‘-, ,-~’’ ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ;’’-, , , , , ,’ ; |
+…………………’, ; ;,’’ ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ;’-, , ,-‘ ;,-‘
+………………….,’-‘ ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ;’’-‘ ;,,-‘
+………………..,’ ; ; ; ; ; ; ; ; ; ; ; ;__ ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ‘-,’
+………………,-‘ ; ; ; ; ; ; ; ; ; ;,-‘’¯: : ’’-, ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; _ ; ; ; ; ;’,
+……………..,’ ; ; ; ; ; ; ; ; ; ; ;| : : : : : ; ; ; ; ; ; ; ; ; ; ; ; ,-‘’¯: ¯’’-, ; ; ;’,
+…………….,’ ; ; ; ; ; ; ; ; ; ; ; ‘-,_: : _,-‘ ; ; ; ; ; ; ; ; ; ; ; ; | : : : : : ; ; ; |
+……………,’ ; ; ; ; ; ; ; ; ; ; ; ; ; ; ¯¯ ; ; ; ; ; ; ; ; ; ; ; ; ; ; ;’-,,_ : :,-‘ ; ; ; ;|
+…………..,-‘ ; ; ; ; ; ; ; ; ; ; ; ; ; ; ,,-~’’ , , , , ,,,-~~-, , , , _ ; ; ;¯¯ ; ; ; ; ;|
+..…………,-‘ ; ; ; ; ; ; ; ; ; ; ; ; ; ; ;,’ , , , , , , ,( : : : : , , , ,’’-, ; ; ; ; ; ; ; ;|
+……….,-‘ ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ;’, , , , , , , , ,’~---~’’ , , , , , ,’ ; ; ; ; ; ; ; ;’,
+…….,-‘’ ; _, ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ‘’~-,,,,--~~’’’¯’’’~-,,_ , ,_,-‘ ; ; ; ; ; ; ; ; ; ‘,
+….,-‘’-~’’,-‘ ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; | ; ; | . . . . . . ,’; ,’’¯ ; ; ; ; ; ; ; ; ; ,_ ; ‘-,
+……….,’ ; ;,-, ; ;, ; ; ;, ; ; ; ; ; ; ; ; ; ; ‘, ; ;’, . . . . .,’ ;,’ ; ; ; ;, ; ; ;,’-, ; ;,’ ‘’~--‘’’
+………,’-~’ ,-‘-~’’ ‘, ,-‘ ‘, ,,- ; ; ; ; ; ; ; ; ‘, ; ; ‘~-,,,-‘’ ; ,’ ; ; ; ; ‘, ;,-‘’ ; ‘, ,-‘,
+……….,-‘’ ; ; ; ; ; ‘’ ; ; ;’’ ; ; ; ; ; ; ; ; ; ; ‘’-,,_ ; ; ; _,-‘ ; ; ; ; ; ;’-‘’ ; ; ; ‘’ ; ;’-,
+……..,-‘ ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ;¯¯’’¯ ; ; ; ; ; ; ; ; , ; ; ; ; ; ; ; ; ;’’-,
+……,-‘ ; ; ; ; ; ; ; ,, ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; |, ; ; ; ; ; ; ; ; ; ; ‘-,
+…..,’ ; ; ; ; ; ; ; ;,’ ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ;|..’-,_ ; ; ; , ; ; ; ; ; ‘,
+….,’ ; ; ; ; ; ; ; ; | ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ;,’…….’’’,-~’ ; ; ; ; ; ,’
+…,’ ; ; ; ; ; ; ; ; ;’~-,,,,,--~~’’’’’’~-,, ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ;,’…..,-~’’ ; ; ; ; ; ; ,-
+…| ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ‘, ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ;,’…,-‘ ; ; ; ; ; ; ; ;,-‘
+…’, ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ,-‘ ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ,’….’, ; ; ; ; _,,-‘’
+….’, ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ,-‘’ ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ;,’…….’’~~’’¯
+…..’’-, ; ; ; ; ; ; ; ; ; ; ; ; ; ;_,,-‘’ ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ,-‘
+………’’~-,,_ ; ; ; ; _,,,-~’’ ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ;,-‘
+………..| ; ; ;¯¯’’’’¯ ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ;,,-‘
+………..’, ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ;,-‘
+…………| ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ;|
+…………’, ; ; ; ; ; ; ; ; ; ~-,,___ ; ; ; ; ; ; ; ; ; ; ; ; ; ;’,
+………….’, ; ; ; ; ; ; ; ; ; ; ;,-‘….’’-, ; ; ; ; ; ; ; ; ; ; ; ; ‘,
+………..,’ ‘- ; ; ; ; ; ; ; ; ;,-‘’……….’-, ; ; ; ; ; ; ; ; ; ; ; ‘,
+……….,’ ; ;’ ; ; ; ; ; ; ,,-‘…………….’, ; ; ; ; ; ; ; ; ; ; ;’,
+………,’ ; ; ; ; ; ; ; ;,-‘’…………………’’-, ; ; ; ; ; ; ; ; ; |
+……..,’ ; ; ; ; ; ; ;,,-‘………………………’’, ; ; ; ; ; ; ; ; |
+……..| ; ; ; ; ; ; ;,’…………………………,’ ; ; ; ; ; ; ; ;,’
+……..| ; ; ; ; ; ; ,’………………………..,-‘ ; ; ; ; ; ; ; ,’’
+……..| ; ; ; ; ; ;,’……………………….,-‘ ; ; ; ; ; ; ; ,-‘
+……..’,_ , ; , ;,’……………………….,’ ; ; ; ; ; ; ; ,-‘
+………’,,’,¯,’,’’|……………………….| ; ; ; ; ; ; ; ; ‘--,,
+………….¯…’’………………………..’-, ; ; ; ; ; ; ; ; ; ;’’~,,
+……………………………………………’’-,, ; ; ; ; ; ; ; ; ; ;’’~-,,
+………………………………………………..’’-, ; ; ; ; ; ,,_ ; ;’-,’’-,
+…………………………………………………..’, ; ; ; ; ; ; ‘-,__,--.
+……………………………………………………’-, ; ; ;,,-~’’’ , ,|, |
+………………………………………………………’’~-‘’_ , , ,,’,_/--‘ -->
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>創遊社課 Git</title>
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/black.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- Csutom style -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+
+			<section>
+				<h1>創遊社課</h1>
+				<p>Git</p>
+			</section>
+
+			<section>
+				<img src="img/artis.png" alt="it's me" class="no-border" height="150" style="border-radius: 50%">
+				<hr>
+				<p>資工 2A</p>
+				<p>中央創遊 4th 課程長</p>
+				<p>@artis22</p>
+			</section>
+
+			<section>
+				<h1>大綱</h1>
+				<ol>
+					<li>什麼是版本控制？</li>
+					<li>shell基本指令</li>
+					<li>Vim基本操作</li>
+					<li>Git Basics</li>
+					<li>Git Advanced</li>
+					<li>其他</li>
+				</ol>
+			</section>
+
+			<section>
+				<section>
+					<h1>什麼是版本控制？</h1>
+				</section>
+
+				<section>
+					<img src="img/whatIsVC.jpg" alt="whatIsVC" class="no-border">
+				</section>
+
+				<section>
+					<img src="img/whatIsVC2.jpg" alt="whatIsVC2" class="no-border">
+				</section>
+
+				<section>
+					<h2>簡單傳統的版本控制方法</h2>
+					<img src="img/Wryyyy.png" alt="BasicVCMethod">
+				</section>
+
+				<section>
+					<img src="img/nene.PNG" alt="Wryyyy" class="no-border no-bg no-shadow">
+				</section>
+
+				<section>
+					<h2>我們希望</h2>
+					<ul>
+						<li>追溯：可以隨時回溯內容</li>
+						<li>同步：方便協作</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>版本控制類型</h2>
+					<ul>
+						<li>本地端版本控制系統（LVCS）</li>
+						<li>集中式版本控制系統（CVCS）</li>
+						<li>分散式版本控制系統（DVCS）</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>本地端版本控制系統（LVCS）</h2>
+					<img src="img/LVCS.png" height="500" alt="LVCS" class="no-border">
+				</section>
+
+				<section>
+					<h2>集中式版本控制系統（CVCS）</h2>
+					<img class="bg-white" src="img/CVCS.png" alt="CVCS">
+				</section>
+
+				<section>
+					<h2>分散式版本控制系統（DVCS）</h2>
+					<img class="bg-white" height="500" src="img/DVCS.png" alt="DVCS">
+				</section>
+
+				<section>
+					<h2>那...什麼是 Git 呢？</h2>
+				</section>
+
+				<section>
+					<a href="https://blog.prototypr.io/fun-with-git-8385da9c748c" target="_blank">Git 的小小小故事</a>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h1>Shell基本指令</h1>
+				</section>
+
+
+				<section>
+					<h3>唯一可以使用Git所有功能的地方！</h3>
+				</section>
+
+				<section>
+					<h2>用哪個都可以</h2>
+					<img class="no-border no-bg no-shadow" height="200" src="img/gitbash.png" alt="terminal">
+					<img class="no-border no-bg no-shadow" height="200" src="img/powershell.png" alt="terminal">
+					<img class="no-border no-bg no-shadow" height="200" src="img/iTerm.png" alt="terminal">
+				</section>
+
+				<section>
+					<table>
+						<thead>
+							<tr>
+								<th>指令</th>
+								<th>用途</th>
+							</tr>
+						</thead>
+						<tbody id="terminal_command">
+							<tr class="fade-up" v-for="content in contents">
+								<td v-for="c in content">{{c}}</td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h1>Vim基本操作</h1>
+				</section>
+
+				<section>
+					<h2>Git預設的文字編輯器</h2>
+				</section>
+
+				<section>
+					<h2>使用方法</h2>
+					<pre><code class="shell" data-trim>
+						$ vim [檔案路徑]
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>Vim mode</h2>
+					<img src="img/vim.png" height="500" alt="vim" class="no-border no-shadow">
+				</section>
+
+			</section>
+
+			<section>
+				<section>
+					<h1>事前準備</h1>
+				</section>
+				<section>
+					<h2>儲存庫（Repository）</h2>
+					<p>紀錄檔案狀態的地方</p>
+				</section>
+
+				<section data-markdown>
+					## 檔案的生命週期
+					- 未追蹤 Untracked
+					- 未修改 Unmodified
+					- 已修改且未預存 Modified
+					- 已預存 Staged
+				</section>
+
+				<section>
+					<h2>檔案的生命週期</h2>
+					<img src="img/lifecycle.png" alt="lifecycle" class="bg-white">
+				</section>
+
+				<section>
+					<h2>安裝Git</h2>
+					<p>&lt;暫時跳過&gt;<a target="_blank" href="https://git-scm.com/downloads"> 下載網址</a></p>
+				</section>
+
+				<section>
+					<h2>初次設定</h2>
+					<pre><code class="shell" data-trim>
+						$ git config --global user.name "Yabasu"
+						$ git config --global user.email yabasu@gmail.com
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>我4萌新，可能需要Git的教學</h2>
+					<img class="fragment no-border" src="img/gitSong1.png" alt="gitSong1">
+				</section>
+
+				<section>
+					<img src="img/gitSong2.png" alt="gitSong2">
+				</section>
+
+				<section>
+					<pre><code class="shell" data-trim>
+						$ git help
+					</code></pre>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h1>Git Basics</h1>
+				</section>
+
+				<section data-markdown>
+					## 取得Repo的兩種方法
+					- *clone*已經存在的repo
+					- 建立repo
+				</section>
+
+				<section>
+					<h2>clone已經存在的repo</h2>
+					<div class="fragment">
+						<br>
+						<pre><code class="shell" data-trim>
+							$ git clone https://github.com/Artis24106/ncugcGit.git
+						</code></pre>
+					</div>
+				</section>
+
+				<section>
+					<h2>建立repo</h2>
+					<pre class="fragment"><code class="shell" data-trim>
+						$ cd <目標資料夾的路徑>
+						$ git init 
+					</code></pre>
+					<p class="fragment" style="text-align: left; padding-left: 45px">產生.git資料夾</p>
+					<p class="fragment" style="text-align: left; padding-left: 45px">一切資料都存在裡面</p>
+					<pre class="fragment"><code class="shell" data-trim>
+						$ ls -al
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>如果後悔了...</h2>
+					<div class="fragment">
+						<p>把.git資料夾刪除即可</p>
+						<pre><code class="shell" data-trim>
+							$ rm -r .git
+						</code></pre>
+					</div>
+				</section>
+
+				<section>
+					<h2>檢查檔案狀態</h2>
+					<pre><code class="shell" data-trim>
+						$ git status
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>新增一個檔案試試看</h2>
+					<pre><code class="shell" data-trim>
+						$ touch whiteBear.txt
+						$ git status
+					</code></pre>
+
+					<p class="fragment fade-up">新檔案處於Untracked的狀態</p>
+				</section>
+
+				<section>
+					<h2>追蹤（Track）新檔案</h2>
+					<pre><code class="shell" data-trim>
+						$ git add whiteBear.txt
+						$ git status
+					</code></pre>
+					<p class="fragment fade-up">whiteBear.txt已經被預存</p>
+
+				</section>
+
+				<section>
+					<h2>提交（Commit）預存檔案</h2>
+					<pre><code class="shell" data-trim>
+						$ git commit
+						$ git commit -m "I commit a white bear."
+					</code></pre>
+
+				</section>
+
+				<section>
+					<h2>複習一下</h2>
+					<img src="img/basics_lifecycle1.png" alt="basics_lifecycle1" class="bg-white">
+				</section>
+
+				<section>
+					<h2>修改檔案看看</h2>
+					<pre><code class="shell" data-trim>
+						$ vim whiteBear.txt
+						$ git status
+					</code></pre>
+
+				</section>
+
+				<section>
+					<h2>檢視更詳細的修改資訊</h2>
+					<pre><code class="shell" data-trim>
+						$ git diff            # 檢視「未預存」的更動
+						$ git diff --cached   # 檢視「已預存」的更動
+					</code></pre>
+					<pre class="fragment"><code class="shell" data-trim>
+						$ git commit -m "Modified whiteBear.txt"
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>複習一下</h2>
+					<img src="img/basics_lifecycle2.png" alt="basics_lifecycle2" class="bg-white">
+				</section>
+
+				<section>
+					<h2>刪除檔案</h2>
+					<p><i>rm</i> vs. <i>git rm</i></p>
+					<pre><code class="shell" data-trim>
+						$ rm whiteBear.txt
+						$ git rm whiteBear.txt
+					</code></pre>
+					<pre class="fragment"><code class="shell" data-trim>
+						$ git rm \*.txt  # 刪除該目錄底下所有.txt結尾的檔案
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>複習一下</h2>
+					<img src="img/basics_lifecycle3.png" alt="basics_lifecycle3" class="bg-white">
+				</section>
+
+				<section>
+					<h2>檔案移動/重新命名</h2>
+					<p><i>mv </i> vs. <i>git mv</i></p>
+					<pre><code class="shell" data-trim>
+						$ git mv whiteBear.txt blackBear.txt
+					</code></pre>
+
+					<div>
+						<pre class="fragment"><code class="shell" data-trim>
+							$ mv whiteBear.txt blackBear.txt
+							$ git rm whiteBear.txt
+							$ git add blackBear.txt
+						</code></pre>
+					</div>
+
+					<p class="fragment">使用 <i>git mv </i>可以節省不少步驟</p>
+				</section>
+
+				<section>
+					<h2>檢視提交的歷史紀錄</h2>
+					<pre><code class="shell" data-trim>
+						$ git log
+						$ git log --graph
+					</code></pre>
+				</section>
+
+				<section>
+					<h1>復原</h1>
+				</section>
+
+				<section>
+					<h2>取消預存</h2>
+					<pre><code class="shell" data-trim>
+						$ git reset HEAD whiteBear.txt
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>復原更動</h2>
+					<pre><code class="shell" data-trim>
+						$ git checkout -- whiteBear.txt
+					</code></pre>
+					<p class="fragment">注意！這個指令是不可逆的！</p>
+				</section>
+
+				<section data-background="img/bear_cry2.png" data-background-repeat="repeat"
+					data-background-size="100px">
+					<p style="border-radius: 1px; background-color: #3F3F3F">已提交的檔案大多可以復原<br>未提交的檔案通常無法復原</p>
+				</section>
+
+				<section>
+					<h1>遠端協作</h1>
+					<p>remote</p>
+				</section>
+
+				<section>
+					<h2>還記得<i>clone</i>嗎？</h2>
+				</section>
+
+				<section>
+					<h2>從遠端下載資料</h2>
+					<pre><code class="shell" data-trim>
+						$ git fetch 
+					</code></pre>
+					<p class="fragment">僅將資料下載，並未加入專案</p>
+				</section>
+
+				<section>
+					<h2>資料合併</h2>
+					<pre><code class="shell" data-trim>
+						$ git merge
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>拉取資料</h2>
+					<pre><code class="shell" data-trim>
+						$ git pull  # pull = fetch + merge
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>推送資料</h2>
+					<pre><code class="shell" data-trim>
+						$ git push
+					</code></pre>
+				</section>
+
+				<section>
+					<h1>標籤</h1>
+					<p>tag</p>
+				</section>
+
+				<section>
+					<h2>輕量級標籤</h2>
+					<pre><code class="shell" data-trim>
+						$ git tag [標籤名稱]
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>含附註標籤</h2>
+					<pre><code class="shell" data-trim>
+						$ git tag [標籤名稱] -a
+						$ git tag [標籤名稱] -am "標籤訊息"
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>通常用來標記版本號</h2>
+				</section>
+
+				<section>
+					<h1>別名</h1>
+					<p>alias</p>
+				</section>
+
+				<section>
+					<pre><code class="shell" data-trim>
+						## 為現有指令取別名
+						$ git config --global alias.st status                   
+
+						## 自定義新指令
+						$ git config --global alias.yabasu 'log --graph'    
+
+						## 自定義外部指令
+						$ git config --global alias.mkbear '!touch bear'
+
+						## 顯示所有別名
+						$ git config --get-regexp alias
+
+						## 刪除特定別名
+						$ git config --global --unset alias.mkbear
+					</code></pre>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h1>分支</h1>
+					<p>branch</p>
+				</section>
+
+				<section>
+					<img src="img/Branch-1.png" alt="branch1" height="500" class="no-border bg-white no-shadow">
+				</section>
+
+				<section>
+					<img src="img/Branch-2.png" alt="branch2" height="500" class="no-border bg-white no-shadow">
+				</section>
+
+				<section>
+					<img src="img/gitflow.svg" alt="branch3" height="600" class="no-border bg-white no-shadow">
+				</section>
+
+				<section>
+					<h2>建立分支</h2>
+					<pre><code class="shell" data-trim>
+						$ git branch [分支名稱]
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>切換分支</h2>
+					<pre><code class="shell" data-trim>
+						$ git checkout [分支名稱]
+					</code></pre>
+					<br>
+					<div class="fragment">
+						<p>建立並切換分支</p>
+						<pre><code class="shell" data-trim>
+							$ git checkout -b [分支名稱]
+						</code></pre>
+					</div>
+				</section>
+
+				<section>
+					<h2>查看所有分支</h2>
+					<pre><code class="shell" data-trim>
+						$ git branch
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>刪除分支</h2>
+					<pre><code class="shell" data-trim>
+						$ git branch -d [分支名稱]
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>合併分支</h2>
+					<pre><code class="shell" data-trim>
+						$ git merge [分支名稱]
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>合併衝突</h2>
+					<p>解決方法 -> 溝通<s>（物理）</s></p>
+					<img src="img/kotohaPunch.GIF" alt="fight1" height="400" class="no-border">
+				</section>
+
+				<section>
+					<pre><code class="shell" data-trim>
+						$ git checkout --theirs [衝突檔案]
+						$ git checkout --ours [衝突檔案]
+					</code></pre>
+				</section>
+
+				<section>
+					<p>如果在合併前已經打完架了</p>
+					<pre class="fragment"><code class="shell" data-trim>
+						$ git merge --Xours/--Xtheirs [分支名稱]
+					</code></pre>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h1>變基</h1>
+					<p>rebase</p>
+				</section>
+
+				<section>
+					<h2>基本用法</h2>
+					<pre><code class="shell" data-trim>
+						$ git rebase [分支名稱]
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>它還可以</h2>
+					<pre><code class="shell" data-trim>
+						## 找出A到AB共同祖先之後的修改，重放到C上
+						$ git rebase --onto [分支C] [分支B] [分支A]
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>使用原則</h2>
+					<p>不要 rebase 已經在遠端的提交</p>
+					<blockquote>
+						「If you follow that guideline, you’ll be fine.
+						If you don’t, people will hate you, and you’ll be
+						scorned by friends and family.」
+					</blockquote>
+				</section>
+
+				<section>
+					<h2><i>merge</i> vs. <i>rebase</i></h2>
+					<p>merge: 紀錄實際發生的事情</p>
+					<p>rebase: 紀錄專案的故事</p>
+				</section>
+
+				<section>
+					<img src="img/mergeRebase.png" alt="merge vs rebase" height="500">
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h1>撿櫻桃(？)</h1>
+					<p>cherry-pick</p>
+				</section>
+
+				<section>
+					<h2>自助餐的感覺</h2>
+					<pre><code class="shell" data-trim>
+						$ git cherry-pick [commit_SHA1]
+					</code></pre>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h1>忽略清單</h1>
+					<p>.gitignore</p>
+				</section>
+
+				<section>
+					<pre><code class="shell" data-trim>
+						# 忽略所有名為index的文件或資料夾
+						index
+					</code></pre>
+					<hr>
+					<p class="fragment fade-right" style="text-align:left">a/b/<span class="g-red">index</span></p>
+					<p class="fragment fade-right" style="text-align:left">a/<span class="g-red">index/</span>index.html
+					</p>
+				</section>
+
+				<section>
+					<pre><code class="shell" data-trim>
+						# 忽略所有指定資料夾裡的所有檔案
+						Logs/
+					</code></pre>
+					<hr>
+					<p class="fragment fade-right" style="text-align:left"><span class="g-red">Logs/</span>Blizzard
+						Updater Log.html</p>
+					<p class="fragment fade-right" style="text-align:left">Agent/<span
+							class="g-red">Logs/</span>Switcher.log</p>
+				</section>
+
+				<section>
+					<pre><code class="shell" data-trim>
+						# 忽略絕對路徑下的特定檔案
+						/whiteBear.html
+					</code></pre>
+					<hr>
+					<p class="fragment fade-right" style="text-align:left">whiteBear.html 會被忽略</p>
+					<p class="fragment fade-right" style="text-align:left">template/whiteBear.html 不會被忽略</p>
+				</section>
+
+				<section>
+					<pre><code class="shell" data-trim>
+						# 忽略所有.txt文件
+						*.txt
+					</code></pre>
+					<hr>
+					<p class="fragment fade-right" style="text-align:left">MISSION_AUDIO<span class="g-red">.txt</span>
+					</p>
+					<p class="fragment fade-right" style="text-align:left">tilesets/Dungeon_A1<span
+							class="g-red">.txt</span></p>
+				</section>
+
+				<section>
+					<pre><code class="shell" data-trim>
+						# ** = 任意路徑
+						/img/**/icon.png
+					</code></pre>
+					<hr>
+					<p class="fragment fade-right" style="text-align:left"><span class="g-red">img/icon.png</span></p>
+					<p class="fragment fade-right" style="text-align:left"><span class="g-red">img/</span>a/<span
+							class="g-red">icon.png</span></p>
+					<p class="fragment fade-right" style="text-align:left"><span class="g-red">img/</span>a/b/<span
+							class="g-red">icon.png</span></p>
+				</section>
+
+				<section>
+					<pre><code class="shell" data-trim>
+						# 字元集合
+						/[Cc]olors.png
+					</code></pre>
+					<hr>
+					<p class="fragment fade-right" style="text-align:left">colors.png</p>
+					<p class="fragment fade-right" style="text-align:left">Colors.png</p>
+				</section>
+
+				<section>
+					<pre><code class="shell" data-trim>
+						# 邏輯負運算子(!)
+						/*.jpg
+						/!kotoha.jpg
+					</code></pre>
+					<hr>
+					<p class="fragment fade-right" style="text-align:left">kotoha.jpg 不會被忽略</p>
+					<p class="fragment fade-right" style="text-align:left">saitou.jpg 會被忽略</p>
+				</section>
+
+				<section>
+					<img src="img/gameClear.png" alt="kotoha" style="background: white">
+				</section>
+
+				<section>
+					<h2>來自官方文件的範例</h2>
+					<pre><code class="shell" data-trim>
+						/*
+						!/foo
+						/foo/*
+						!/foo/bar
+					</code></pre>
+					<hr>
+					<p class="fragment fade-right" style="text-align:left">/foo/bar以外的內容會被忽略</p>
+				</section>
+
+				<section>
+					<h2>懶得自己寫.gitignore？</h2>
+					<a target="_blank" href="https://github.com/github/gitignore">已經有人幫你寫好惹！</a>
+				</section>
+
+				<section>
+					<h2>停止追蹤</h2>
+					<pre><code class="shell" data-trim>
+						git rm --cached [檔案名稱]
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>忽略忽略文件</h2>
+					<pre><code class="shell" data-trim>
+						git add -f [檔案名稱]
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>不錯的教學文件</h2>
+					<a target="_blank"
+						href="https://www.atlassian.com/git/tutorials/saving-changes/gitignore">Bitbucket</a>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h1>重置</h1>
+					<p>reset, checkout</p>
+				</section>
+
+				<section>
+					<h2>官方文件寫得很好</h2>
+					<p><a target="_blank"
+							href="https://git-scm.com/book/zh/v2/Git-%E5%B7%A5%E5%85%B7-%E9%87%8D%E7%BD%AE%E6%8F%AD%E5%AF%86"
+							_blank>不用做簡報！</a>
+					</p>
+				</section>
+
+				<section>
+					<img src="img/gitResetHard.jpg" alt="gitResetHard" class="no-border">
+				</section>
+
+				<section>
+					<h2>掌握回到過去&穿越時空的能力</h2>
+					<img src="img/KQ&D4C.jpg" alt="KQ&D4C" height="500" class="no-border">
+				</section>
+
+				<section>
+					<h2>但是...</h2>
+				</section>
+
+				<section data-background="img/getLost.png" data-background-repeat="repeat" data-background-size="100px">
+					<p style="border-radius: 1px; background-color: #3F3F3F; padding-top: 20px; padding-bottom: 20px">
+						到過去之後就回不來了</p>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h1>引用日誌</h1>
+					<p>reflog</p>
+				</section>
+
+				<section>
+					<p>每當 HEAD 移動 reflog 就會有紀錄</p>
+				</section>
+
+				<section>
+					<pre><code class="shell" data-trim>
+						$ git reflog
+						$ git log -g
+					</code></pre>
+					<p class="fragment">引用日誌僅存在本地端</p>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h1>儲藏</h1>
+					<p>stash</p>
+				</section>
+
+				<section>
+					<pre><code class="shell" data-trim>
+						$ git stash
+						$ git stash -u # 包含untracked file
+					</code></pre>
+					<pre><code class="shell" data-trim>
+						$ git stash list
+					</code></pre>
+				</section>
+
+				<section>
+					<pre><code class="shell" data-trim>
+						$ git stash apply 
+						$ git stash drop [stash名稱]
+						
+						$ git stash pop # pop = apply + drop
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>建立新分支繼續工作</h2>
+					<pre><code class="shell" data-trim>
+						$ git stash branch [分支名稱]
+					</code></pre>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h1>清理</h1>
+					<p>clean</p>
+				</section>
+
+				<section>
+					<h2>刪除 untracked file</h2>
+					<pre><code class="shell" data-trim>
+						$ git clean -d -f
+					</code></pre>
+					<pre class="fragment"><code class="shell" data-trim>
+						$ git clean -d -n # 模擬刪除情況
+						$ git clean -d -x # 連被 .gitignore 忽略的檔案也刪除
+					</code></pre>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h1>抓戰犯</h1>
+					<p>blame</p>
+				</section>
+
+				<section>
+					<pre><code class="shell" data-trim>
+						$ git blame [檔案名稱]
+						$ git blame -L 2,5 [檔案名稱]
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>能快樂地溝通了</h2>
+					<img src="img/fight1.gif" alt="fight1" class="no-border">
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h1>搜尋</h1>
+					<p>grep</p>
+				</section>
+
+				<section>
+					<h2><i>grep</i>使用方法</h2>
+					<pre><code class="shell" data-trim>
+						$ git grep [搜尋內容]
+					</code></pre>
+					<pre class="fragment"><code class="shell" data-trim>
+						$ git grep -n [搜尋內容] # 顯示行號
+						$ git grep --count [搜尋內容] # 顯示文件中出現次數
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>小比較</h2>
+					<p><i>grep</i> vs. <i>git grep</i></p>
+					<p>git grep 比較快、可以在任意版本中搜尋</p>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h1>其他</h1>
+					<p>others</p>
+				</section>
+
+				<section>
+					<h1>Git server</h1>
+					<a href="https://github.com">Github</a>
+				</section>
+
+				<section>
+					<h1>GUI</h1>
+				</section>
+
+				<section>
+					<h1>Git 運作方式</h1>
+					<a href="https://ithelp.ithome.com.tw/articles/10190453">資源1</a>
+					<a href="https://ithelp.ithome.com.tw/articles/10208087">資源2</a>
+				</section>
+
+				<section>
+					<h1>Git X Unity</h1>
+					<a href="https://hackmd.io/p/HJ2jzfQFg#/">是野生的簡報！</a>
+					<a href="https://unity.github.com">GitHub for Unity</a>
+				</section>
+
+				<section>
+					<h1>SHA1</h1>
+					<p>Secure Hash Algorithm 1</p>
+					<a href="https://www.cryptocompare.com/coins/guides/how-does-a-hashing-algorithm-work/">SHA1</a>
+					<a href="https://gitbook.tw/chapters/using-git/how-to-calculate-the-sha1-value.html">GitのSHA1</a>
+				</section>
+
+			</section>
+		</div>
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vue@2.5.22/dist/vue.js"></script>
+	<script>
+		var terminal = new Vue({
+			el: '#terminal_command',
+			data: {
+				contents: [
+					["ls", "顯示目錄內容"],
+					["cd", "切換目錄"],
+					["mkdir", "新增資料夾"],
+					["touch", "新增檔案"],
+					["cp", "複製檔案"],
+					["rm", "刪除檔案"],
+					["mv", "移動檔案"],
+					["clear", "清除畫面"]
+				]
+			}
+		})
+		var vim = new Vue({
+			el: '#vim_command',
+			data: {
+				contents: [
+					[":w", "存檔"],
+					[":q", "退出"],
+					[":wq", "存檔且退出"]
+				]
+			}
+		})
+	</script>
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			dependencies: [{
+					src: 'plugin/markdown/marked.js'
+				},
+				{
+					src: 'plugin/markdown/markdown.js'
+				},
+				{
+					src: 'plugin/notes/notes.js',
+					async: true
+				},
+				{
+					src: 'plugin/highlight/highlight.js',
+					async: true,
+					callback: function () {
+						hljs.initHighlightingOnLoad();
+					}
+				}
+			]
+		});
+	</script>
+</body>
+
+</html>
